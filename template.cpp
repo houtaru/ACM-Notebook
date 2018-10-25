@@ -13,7 +13,7 @@ using namespace std;
 #define uni(v) v.erase(unique(all(v)), v.end())
 
 #define DEBUG(x) cerr << #x << " = " << x << endl;
-#define DEBUGS(v, a, b) cerr << #a << " = "; FOR(i, a, b) cerr << a[i] << " "; cerr << endl;
+#define DEBUGS(v, a, b) cerr << #v << " = "; FOR(i, a, b) cerr << v[i] << " "; cerr << endl;
 
 
 //La Hoang Phong template
