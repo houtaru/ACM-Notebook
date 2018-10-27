@@ -18,7 +18,7 @@ using namespace std;
 #define DEBUG(x) cerr << #x << " = " << x << endl;
 #define DEBUGS(v, a, b) cerr << #a << " = "; FOR(i, a, b) cerr << a[i] << " "; cerr << endl;
 
-long long Rand(long long l, long long r) { return l + rand() % (r - l + 1) / (double) RAND_MAX; }
+long long Rand(long long l, long long r) { return l + (r - l) * (rand()/(double)RAND_MAX); }
 
 void gen(int iTest) {
     ofstream input("input.in");
