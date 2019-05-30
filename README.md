@@ -1,4 +1,4 @@
-ACM Notebook
+ACM-ICPC Notebook
 =============
 
-ACM Notebook
+My ACM team's notebook
