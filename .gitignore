@@ -2,3 +2,9 @@
 main.cpp
 input.in
 main
+*.tex
+notebook.*
+contents.txt
+answer.ans
+output.out
+generate_pdf.py
