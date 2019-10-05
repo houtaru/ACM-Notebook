@@ -23,3 +23,4 @@ void dfs_hld(int v) {
         dfs_hld(u);
     }
     out[v] = t;
+}
